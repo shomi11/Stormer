@@ -14,6 +14,8 @@
 		CA0D370C2662665000F19475 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D370B2662665000F19475 /* Sys.swift */; };
 		CA0D370E2662667E00F19475 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D370D2662667E00F19475 /* Weather.swift */; };
 		CA0D3710266266B700F19475 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D370F266266B700F19475 /* Wind.swift */; };
+		CA0D3713266272D900F19475 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3712266272D900F19475 /* ApiError.swift */; };
+		CA0D37152662732000F19475 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D37142662732000F19475 /* Router.swift */; };
 		CAC0CADF26621F1A00403DB1 /* StormerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC0CADE26621F1A00403DB1 /* StormerApp.swift */; };
 		CAC0CAE126621F1A00403DB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC0CAE026621F1A00403DB1 /* ContentView.swift */; };
 		CAC0CAE326621F1B00403DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC0CAE226621F1B00403DB1 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		CA0D370B2662665000F19475 /* Sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
 		CA0D370D2662667E00F19475 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		CA0D370F266266B700F19475 /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		CA0D3712266272D900F19475 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		CA0D37142662732000F19475 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		CAC0CADB26621F1A00403DB1 /* Stormer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC0CADE26621F1A00403DB1 /* StormerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormerApp.swift; sourceTree = "<group>"; };
 		CAC0CAE026621F1A00403DB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		CA0D3711266272C000F19475 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D3712266272D900F19475 /* ApiError.swift */,
+				CA0D37142662732000F19475 /* Router.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
 		CAC0CAD226621F1A00403DB1 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +93,7 @@
 		CAC0CADD26621F1A00403DB1 /* Stormer */ = {
 			isa = PBXGroup;
 			children = (
+				CA0D3711266272C000F19475 /* ApiService */,
 				CA0D37022662641F00F19475 /* Models */,
 				CAC0CADE26621F1A00403DB1 /* StormerApp.swift */,
 				CAC0CAE026621F1A00403DB1 /* ContentView.swift */,
@@ -170,6 +184,8 @@
 				CA0D370E2662667E00F19475 /* Weather.swift in Sources */,
 				CAC0CAE126621F1A00403DB1 /* ContentView.swift in Sources */,
 				CA0D3710266266B700F19475 /* Wind.swift in Sources */,
+				CA0D3713266272D900F19475 /* ApiError.swift in Sources */,
+				CA0D37152662732000F19475 /* Router.swift in Sources */,
 				CA0D370C2662665000F19475 /* Sys.swift in Sources */,
 				CA0D370A266265D500F19475 /* MainWeather.swift in Sources */,
 				CA0D37062662657700F19475 /* Clouds.swift in Sources */,
