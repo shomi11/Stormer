@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0D37042662648900F19475 /* BaseWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D37032662648900F19475 /* BaseWeather.swift */; };
+		CA0D37062662657700F19475 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D37052662657700F19475 /* Clouds.swift */; };
+		CA0D37082662659700F19475 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D37072662659700F19475 /* Coordinates.swift */; };
+		CA0D370A266265D500F19475 /* MainWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3709266265D500F19475 /* MainWeather.swift */; };
+		CA0D370C2662665000F19475 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D370B2662665000F19475 /* Sys.swift */; };
+		CA0D370E2662667E00F19475 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D370D2662667E00F19475 /* Weather.swift */; };
+		CA0D3710266266B700F19475 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D370F266266B700F19475 /* Wind.swift */; };
+		CAC0CADF26621F1A00403DB1 /* StormerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC0CADE26621F1A00403DB1 /* StormerApp.swift */; };
+		CAC0CAE126621F1A00403DB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC0CAE026621F1A00403DB1 /* ContentView.swift */; };
+		CAC0CAE326621F1B00403DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC0CAE226621F1B00403DB1 /* Assets.xcassets */; };
+		CAC0CAE626621F1B00403DB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC0CAE526621F1B00403DB1 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0D37032662648900F19475 /* BaseWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWeather.swift; sourceTree = "<group>"; };
+		CA0D37052662657700F19475 /* Clouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
+		CA0D37072662659700F19475 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		CA0D3709266265D500F19475 /* MainWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeather.swift; sourceTree = "<group>"; };
+		CA0D370B2662665000F19475 /* Sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
+		CA0D370D2662667E00F19475 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		CA0D370F266266B700F19475 /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		CAC0CADB26621F1A00403DB1 /* Stormer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC0CADE26621F1A00403DB1 /* StormerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormerApp.swift; sourceTree = "<group>"; };
+		CAC0CAE026621F1A00403DB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAC0CAE226621F1B00403DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAC0CAE526621F1B00403DB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAC0CAE726621F1B00403DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC0CAD826621F1A00403DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0D37022662641F00F19475 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D37032662648900F19475 /* BaseWeather.swift */,
+				CA0D3709266265D500F19475 /* MainWeather.swift */,
+				CA0D37072662659700F19475 /* Coordinates.swift */,
+				CA0D37052662657700F19475 /* Clouds.swift */,
+				CA0D370B2662665000F19475 /* Sys.swift */,
+				CA0D370D2662667E00F19475 /* Weather.swift */,
+				CA0D370F266266B700F19475 /* Wind.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CAC0CAD226621F1A00403DB1 = {
+			isa = PBXGroup;
+			children = (
+				CAC0CADD26621F1A00403DB1 /* Stormer */,
+				CAC0CADC26621F1A00403DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC0CADC26621F1A00403DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC0CADB26621F1A00403DB1 /* Stormer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC0CADD26621F1A00403DB1 /* Stormer */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D37022662641F00F19475 /* Models */,
+				CAC0CADE26621F1A00403DB1 /* StormerApp.swift */,
+				CAC0CAE026621F1A00403DB1 /* ContentView.swift */,
+				CAC0CAE226621F1B00403DB1 /* Assets.xcassets */,
+				CAC0CAE726621F1B00403DB1 /* Info.plist */,
+				CAC0CAE426621F1B00403DB1 /* Preview Content */,
+			);
+			path = Stormer;
+			sourceTree = "<group>";
+		};
+		CAC0CAE426621F1B00403DB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAC0CAE526621F1B00403DB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC0CADA26621F1A00403DB1 /* Stormer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC0CAEA26621F1B00403DB1 /* Build configuration list for PBXNativeTarget "Stormer" */;
+			buildPhases = (
+				CAC0CAD726621F1A00403DB1 /* Sources */,
+				CAC0CAD826621F1A00403DB1 /* Frameworks */,
+				CAC0CAD926621F1A00403DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stormer;
+			productName = Stormer;
+			productReference = CAC0CADB26621F1A00403DB1 /* Stormer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC0CAD326621F1A00403DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CAC0CADA26621F1A00403DB1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = CAC0CAD626621F1A00403DB1 /* Build configuration list for PBXProject "Stormer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAC0CAD226621F1A00403DB1;
+			productRefGroup = CAC0CADC26621F1A00403DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC0CADA26621F1A00403DB1 /* Stormer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC0CAD926621F1A00403DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC0CAE626621F1B00403DB1 /* Preview Assets.xcassets in Resources */,
+				CAC0CAE326621F1B00403DB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC0CAD726621F1A00403DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0D370E2662667E00F19475 /* Weather.swift in Sources */,
+				CAC0CAE126621F1A00403DB1 /* ContentView.swift in Sources */,
+				CA0D3710266266B700F19475 /* Wind.swift in Sources */,
+				CA0D370C2662665000F19475 /* Sys.swift in Sources */,
+				CA0D370A266265D500F19475 /* MainWeather.swift in Sources */,
+				CA0D37062662657700F19475 /* Clouds.swift in Sources */,
+				CAC0CADF26621F1A00403DB1 /* StormerApp.swift in Sources */,
+				CA0D37042662648900F19475 /* BaseWeather.swift in Sources */,
+				CA0D37082662659700F19475 /* Coordinates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAC0CAE826621F1B00403DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAC0CAE926621F1B00403DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAC0CAEB26621F1B00403DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stormer/Preview Content\"";
+				DEVELOPMENT_TEAM = NAKVM6YWDQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stormer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milosmalovic11.Stormer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAC0CAEC26621F1B00403DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stormer/Preview Content\"";
+				DEVELOPMENT_TEAM = NAKVM6YWDQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stormer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milosmalovic11.Stormer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC0CAD626621F1A00403DB1 /* Build configuration list for PBXProject "Stormer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC0CAE826621F1B00403DB1 /* Debug */,
+				CAC0CAE926621F1B00403DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC0CAEA26621F1B00403DB1 /* Build configuration list for PBXNativeTarget "Stormer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC0CAEB26621F1B00403DB1 /* Debug */,
+				CAC0CAEC26621F1B00403DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAC0CAD326621F1A00403DB1 /* Project object */;
+}
