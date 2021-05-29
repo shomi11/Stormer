@@ -11,9 +11,7 @@ import SwiftUI
 struct StormerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScreen()
         }
     }
 }
-
-// open weather api key: 06b772226da20b9047cdcb341d815063
