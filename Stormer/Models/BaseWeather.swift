@@ -8,16 +8,14 @@
 import Foundation
 
 struct BaseWeather: Codable {
-    let coord: Coord
-    let weather: [Weather]
-    let base: String
-    let main: MainWeather
-    let visibility: Int
-    let wind: Wind
-    let clouds: Clouds
-    let dt: Int
-    let sys: Sys
-    let timezone, id: Int
+    let id: Int
     let name: String
-    let cod: Int
+    let coord: Coord
+    let main: MainWeather
+    let dt: Int
+    let wind: Wind
+    let sys: Sys
+    let rain, snow: Bool?
+    let clouds: Clouds
+    let weather: [WheaterDesc]
 }

@@ -8,8 +8,8 @@
 import Foundation
 
 struct Sys: Codable {
-    let type, id: Int
-    let message: Double
-    let country: String
-    let sunrise, sunset: Int
+    let type, id: Int?
+    let message: Double?
+    let country: String?
+    let sunrise, sunset: Int?
 }

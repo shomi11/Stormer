@@ -27,12 +27,10 @@ class ApiService {
                     return
                 }
                 guard let data = data else { completion(.failure(.missingData)); return }
-                let json = String(data: data, encoding: String.Encoding.utf8)
-                print("json \(json!)")
                 do {
                     let result = try JSONDecoder().decode(T.self, from: data)
                     completion(.success(result))
-                } catch {
+                } catch let err {
                     completion(.failure(.decodindError))
                 }
             }

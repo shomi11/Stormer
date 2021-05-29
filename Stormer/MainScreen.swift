@@ -42,10 +42,10 @@ private extension MainScreen {
         let lat = location.coordinate.latitude
         let lon = location.coordinate.longitude
         let coord = Coord(lon: lon, lat: lat)
-        ApiService.shared.request(type: BaseWeather.self, router: Router.getForecasts(coordinated: coord)) { result in
+        ApiService.shared.request(type: Weather.self, router: Router.getForecasts(coordinated: coord)) { result in
             switch result {
-            case .success(let baseWeather):
-                print("success \(baseWeather.name)")
+            case .success(let weather):
+                print("success \(weather.message)")
             case .failure(let err):
                 print("error \(err)")
             }
