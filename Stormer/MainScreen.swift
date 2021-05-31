@@ -13,6 +13,12 @@ struct MainScreen: View {
     @StateObject var locationManager = LocationManager()
     @State private var weather: Weather = Weather.initial
 
+    init() {
+                let navBarAppearance = UINavigationBar.appearance()
+                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+                navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+              }    
+
     var body: some View {
         NavigationView {
             ZStack {
@@ -21,10 +27,20 @@ struct MainScreen: View {
                 VStack {
                     TopScreenView(baseWeather: weather.list?.first ?? BaseWeather.initial)
                 }
-            }
-            .navigationTitle(weather.locationName)
-        }.onReceive(locationManager.$location, perform: { _ in
+            }.navigationTitle(weather.locationName)
+        }
+        .onReceive(locationManager.$location, perform: { _ in
             getBaseForecast()
+        })
+        .onReceive(locationManager.$authorizationStatus, perform: { status in
+            switch status {
+            case .authorizedAlways:
+                locationManager.updateLocation()
+            case .authorizedWhenInUse:
+                locationManager.updateLocation()
+            default:
+                break
+            }
         })
     }
 
@@ -50,6 +66,7 @@ private extension MainScreen {
             switch result {
             case .success(let weather):
                 self.weather = weather
+                locationManager.stopUpdatingLocation()
             case .failure(let err):
                 print("error \(err)")
             }

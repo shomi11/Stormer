@@ -17,16 +17,26 @@ struct TopScreenView: View {
 
     var body: some View {
         VStack(spacing: 16) {
+            HStack {
+                Text(weatherDesc?.description.capitalized ?? "")
+                    .foregroundColor(.white)
+                    .padding(.leading, 16)
+                Spacer()
+            }.padding(.top, 32)
             icon(code: weatherDesc?.main)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 200, height: 200, alignment: .center)
                 .foregroundColor(.white)
-            Text("\(baseWeather.main?.currentTemp ?? "")")
+                .padding(.top, 32)
+            Text(baseWeather.main?.currentTemp ?? "")
                 .font(.system(size: 60, weight: .semibold, design: .default))
                 .foregroundColor(.white)
             bottomStack
+            Text(baseWeather.main?.feeling ?? "")
+                .foregroundColor(.white)
         }
+        Spacer()
     }
 
     private func icon(code: ConditionsCodes?) -> Image {
@@ -46,7 +56,7 @@ struct TopScreenView: View {
         HStack(spacing: 16) {
             Text(baseWeather.main?.minimumTemp ?? "")
             Text(baseWeather.main?.maximumTemp ?? "")
-        }.foregroundColor(.blue)
+        }.foregroundColor(.white)
     }
 }
 

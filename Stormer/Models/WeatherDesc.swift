@@ -18,6 +18,13 @@ struct WeatherDesc: Codable {
         case icon
     }
 
+    var description: String {
+        if let description = weatherDescription {
+            return "\(description)"
+        }
+        return ""
+    }
+
     static var initial: WeatherDesc = {
         let desc = WeatherDesc(id: nil, main: nil, weatherDescription: nil, icon: nil)
         return desc

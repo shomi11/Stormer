@@ -28,21 +28,21 @@ struct MainWeather: Codable {
 
     var feeling: String {
         if let feelsLike = feelsLike {
-            return "\(Int(feelsLike))°"
+            return "Feels like: \(Int(feelsLike))°"
         }
         return ""
     }
 
     var minimumTemp: String {
         if let tempMin = tempMin {
-            return "min: \(Int(tempMin))°"
+            return "Min: \(Int(tempMin))°"
         }
         return ""
     }
 
     var maximumTemp: String {
         if let maxTemp = tempMax {
-            return "max: \(Int(maxTemp))°"
+            return "Max: \(Int(maxTemp))°"
         }
         return ""
     }
