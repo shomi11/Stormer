@@ -18,4 +18,42 @@ struct MainWeather: Codable {
         case tempMax = "temp_max"
         case pressure, humidity
     }
+
+    var currentTemp: String {
+        if let temp = temp {
+            return "\(Int(temp))°"
+        }
+        return ""
+    }
+
+    var feeling: String {
+        if let feelsLike = feelsLike {
+            return "\(Int(feelsLike))°"
+        }
+        return ""
+    }
+
+    var minimumTemp: String {
+        if let tempMin = tempMin {
+            return "min: \(Int(tempMin))°"
+        }
+        return ""
+    }
+
+    var maximumTemp: String {
+        if let maxTemp = tempMax {
+            return "max: \(Int(maxTemp))°"
+        }
+        return ""
+    }
+
+    static var initial: MainWeather = {
+        let main = MainWeather(temp: nil, feelsLike: nil, tempMin: nil, tempMax: nil, pressure: nil, humidity: nil)
+        return main
+    }()
+
+    static let example: MainWeather = {
+        let main = MainWeather(temp: 16, feelsLike: 18, tempMin: 12, tempMax: 23, pressure: nil, humidity: nil)
+        return main
+    }()
 }

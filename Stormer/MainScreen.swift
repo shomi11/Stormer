@@ -6,26 +6,30 @@
 //
 
 import SwiftUI
-import Combine
 import CoreLocation
 
 struct MainScreen: View {
 
     @StateObject var locationManager = LocationManager()
-
-    var locationCancellable = [AnyCancellable]()
+    @State private var weather: Weather = Weather.initial
 
     var body: some View {
         NavigationView {
-            VStack {
-              Text("Your location is:")
-              HStack {
-                Text("Latitude: \(Double(locationManager.location?.coordinate.latitude ?? 0))")
-              }
+            ZStack {
+                background
+                    .edgesIgnoringSafeArea(.all)
+                VStack {
+                    TopScreenView(baseWeather: weather.list?.first ?? BaseWeather.initial)
+                }
             }
+            .navigationTitle(weather.locationName)
         }.onReceive(locationManager.$location, perform: { _ in
             getBaseForecast()
         })
+    }
+
+    var background: some View {
+        LinearGradient(gradient: Gradient(colors: [Color.red, Color.yellow]), startPoint: .topLeading, endPoint: .bottomTrailing)
     }
 }
 
@@ -45,7 +49,7 @@ private extension MainScreen {
         ApiService.shared.request(type: Weather.self, router: Router.getForecasts(coordinated: coord)) { result in
             switch result {
             case .success(let weather):
-                print("success \(weather.message)")
+                self.weather = weather
             case .failure(let err):
                 print("error \(err)")
             }

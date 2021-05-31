@@ -27,10 +27,12 @@ class ApiService {
                     return
                 }
                 guard let data = data else { completion(.failure(.missingData)); return }
+                let s = try! JSONSerialization.jsonObject(with: data, options: .fragmentsAllowed)
+                print("json \(s)")
                 do {
                     let result = try JSONDecoder().decode(T.self, from: data)
                     completion(.success(result))
-                } catch let err {
+                } catch {
                     completion(.failure(.decodindError))
                 }
             }
