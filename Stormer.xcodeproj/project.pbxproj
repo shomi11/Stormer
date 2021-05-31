@@ -16,16 +16,63 @@
 		CA0D3710266266B700F19475 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D370F266266B700F19475 /* Wind.swift */; };
 		CA0D3713266272D900F19475 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3712266272D900F19475 /* ApiError.swift */; };
 		CA0D37152662732000F19475 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D37142662732000F19475 /* Router.swift */; };
+		CA21A9612665977300BC6651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC0CAE226621F1B00403DB1 /* Assets.xcassets */; };
 		CA6A33A62662B88E00EA8253 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33A52662B88E00EA8253 /* MainScreen.swift */; };
 		CA6A33A82662B90D00EA8253 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33A72662B90D00EA8253 /* ApiService.swift */; };
 		CA6A33AA2662C52E00EA8253 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33A92662C52E00EA8253 /* LocationManager.swift */; };
 		CA6A33AC2663024700EA8253 /* WeatherDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33AB2663024700EA8253 /* WeatherDesc.swift */; };
 		CA6A33B22664E07700EA8253 /* TopScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33B12664E07700EA8253 /* TopScreenView.swift */; };
 		CA6A33B42664E4FB00EA8253 /* ConditionsCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33B32664E4FB00EA8253 /* ConditionsCodes.swift */; };
+		CA6A33BC2665268E00EA8253 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6A33BB2665268E00EA8253 /* WidgetKit.framework */; };
+		CA6A33BE2665268E00EA8253 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6A33BD2665268E00EA8253 /* SwiftUI.framework */; };
+		CA6A33C12665268E00EA8253 /* StormerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33C02665268E00EA8253 /* StormerWidget.swift */; };
+		CA6A33C32665269000EA8253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6A33C22665269000EA8253 /* Assets.xcassets */; };
+		CA6A33C72665269000EA8253 /* StormerWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA6A33B92665268E00EA8253 /* StormerWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA6A33CC2665276300EA8253 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D370D2662667E00F19475 /* Weather.swift */; };
+		CA6A33CD2665276700EA8253 /* BaseWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D37032662648900F19475 /* BaseWeather.swift */; };
+		CA6A33CE2665276A00EA8253 /* MainWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3709266265D500F19475 /* MainWeather.swift */; };
+		CA6A33CF2665276D00EA8253 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D37072662659700F19475 /* Coordinates.swift */; };
+		CA6A33D02665276F00EA8253 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D37052662657700F19475 /* Clouds.swift */; };
+		CA6A33D12665277200EA8253 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D370B2662665000F19475 /* Sys.swift */; };
+		CA6A33D22665277400EA8253 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D370F266266B700F19475 /* Wind.swift */; };
+		CA6A33D32665277700EA8253 /* WeatherDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33AB2663024700EA8253 /* WeatherDesc.swift */; };
+		CA6A33D42665277A00EA8253 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33A92662C52E00EA8253 /* LocationManager.swift */; };
+		CA6A33D52665277D00EA8253 /* ConditionsCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33B32664E4FB00EA8253 /* ConditionsCodes.swift */; };
+		CA6A33D826652AE300EA8253 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33A72662B90D00EA8253 /* ApiService.swift */; };
+		CA6A33D926652AE900EA8253 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D37142662732000F19475 /* Router.swift */; };
+		CA6A33DA26652AEC00EA8253 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3712266272D900F19475 /* ApiError.swift */; };
+		CA6A33DD26652B7500EA8253 /* WidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33DB26652B7100EA8253 /* WidgetEntry.swift */; };
+		CA6A33E026652CF400EA8253 /* WidgetTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33DE26652CF000EA8253 /* WidgetTimeline.swift */; };
+		CA6A33E326652FFB00EA8253 /* WidgetLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33E126652FF700EA8253 /* WidgetLocationManager.swift */; };
+		CA6A33E726655D2900EA8253 /* StormerWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A33E626655D2900EA8253 /* StormerWidgetEntryView.swift */; };
 		CAC0CADF26621F1A00403DB1 /* StormerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC0CADE26621F1A00403DB1 /* StormerApp.swift */; };
 		CAC0CAE326621F1B00403DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC0CAE226621F1B00403DB1 /* Assets.xcassets */; };
 		CAC0CAE626621F1B00403DB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC0CAE526621F1B00403DB1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA6A33C52665269000EA8253 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC0CAD326621F1A00403DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6A33B82665268E00EA8253;
+			remoteInfo = StormerWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA6A33CB2665269000EA8253 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CA6A33C72665269000EA8253 /* StormerWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CA0D37032662648900F19475 /* BaseWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWeather.swift; sourceTree = "<group>"; };
@@ -43,6 +90,18 @@
 		CA6A33AB2663024700EA8253 /* WeatherDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDesc.swift; sourceTree = "<group>"; };
 		CA6A33B12664E07700EA8253 /* TopScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScreenView.swift; sourceTree = "<group>"; };
 		CA6A33B32664E4FB00EA8253 /* ConditionsCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsCodes.swift; sourceTree = "<group>"; };
+		CA6A33B92665268E00EA8253 /* StormerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StormerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6A33BB2665268E00EA8253 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CA6A33BD2665268E00EA8253 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CA6A33C02665268E00EA8253 /* StormerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormerWidget.swift; sourceTree = "<group>"; };
+		CA6A33C22665269000EA8253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6A33C42665269000EA8253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6A33D62665293800EA8253 /* Stormer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stormer.entitlements; sourceTree = "<group>"; };
+		CA6A33D7266529C400EA8253 /* StormerWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StormerWidgetExtension.entitlements; sourceTree = "<group>"; };
+		CA6A33DB26652B7100EA8253 /* WidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEntry.swift; sourceTree = "<group>"; };
+		CA6A33DE26652CF000EA8253 /* WidgetTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTimeline.swift; sourceTree = "<group>"; };
+		CA6A33E126652FF700EA8253 /* WidgetLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetLocationManager.swift; sourceTree = "<group>"; };
+		CA6A33E626655D2900EA8253 /* StormerWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormerWidgetEntryView.swift; sourceTree = "<group>"; };
 		CAC0CADB26621F1A00403DB1 /* Stormer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC0CADE26621F1A00403DB1 /* StormerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormerApp.swift; sourceTree = "<group>"; };
 		CAC0CAE226621F1B00403DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +110,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CA6A33B62665268E00EA8253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6A33BE2665268E00EA8253 /* SwiftUI.framework in Frameworks */,
+				CA6A33BC2665268E00EA8253 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAC0CAD826621F1A00403DB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,10 +156,36 @@
 			path = ApiService;
 			sourceTree = "<group>";
 		};
+		CA6A33BA2665268E00EA8253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA6A33BB2665268E00EA8253 /* WidgetKit.framework */,
+				CA6A33BD2665268E00EA8253 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA6A33BF2665268E00EA8253 /* StormerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CA6A33C02665268E00EA8253 /* StormerWidget.swift */,
+				CA6A33DE26652CF000EA8253 /* WidgetTimeline.swift */,
+				CA6A33DB26652B7100EA8253 /* WidgetEntry.swift */,
+				CA6A33E626655D2900EA8253 /* StormerWidgetEntryView.swift */,
+				CA6A33E126652FF700EA8253 /* WidgetLocationManager.swift */,
+				CA6A33C22665269000EA8253 /* Assets.xcassets */,
+				CA6A33C42665269000EA8253 /* Info.plist */,
+			);
+			path = StormerWidget;
+			sourceTree = "<group>";
+		};
 		CAC0CAD226621F1A00403DB1 = {
 			isa = PBXGroup;
 			children = (
+				CA6A33D7266529C400EA8253 /* StormerWidgetExtension.entitlements */,
 				CAC0CADD26621F1A00403DB1 /* Stormer */,
+				CA6A33BF2665268E00EA8253 /* StormerWidget */,
+				CA6A33BA2665268E00EA8253 /* Frameworks */,
 				CAC0CADC26621F1A00403DB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				CAC0CADB26621F1A00403DB1 /* Stormer.app */,
+				CA6A33B92665268E00EA8253 /* StormerWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +202,7 @@
 		CAC0CADD26621F1A00403DB1 /* Stormer */ = {
 			isa = PBXGroup;
 			children = (
+				CA6A33D62665293800EA8253 /* Stormer.entitlements */,
 				CA0D3711266272C000F19475 /* ApiService */,
 				CA0D37022662641F00F19475 /* Models */,
 				CAC0CADE26621F1A00403DB1 /* StormerApp.swift */,
@@ -130,6 +226,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CA6A33B82665268E00EA8253 /* StormerWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6A33C82665269000EA8253 /* Build configuration list for PBXNativeTarget "StormerWidgetExtension" */;
+			buildPhases = (
+				CA6A33B52665268E00EA8253 /* Sources */,
+				CA6A33B62665268E00EA8253 /* Frameworks */,
+				CA6A33B72665268E00EA8253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StormerWidgetExtension;
+			productName = StormerWidgetExtension;
+			productReference = CA6A33B92665268E00EA8253 /* StormerWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		CAC0CADA26621F1A00403DB1 /* Stormer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAC0CAEA26621F1B00403DB1 /* Build configuration list for PBXNativeTarget "Stormer" */;
@@ -137,10 +250,12 @@
 				CAC0CAD726621F1A00403DB1 /* Sources */,
 				CAC0CAD826621F1A00403DB1 /* Frameworks */,
 				CAC0CAD926621F1A00403DB1 /* Resources */,
+				CA6A33CB2665269000EA8253 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CA6A33C62665269000EA8253 /* PBXTargetDependency */,
 			);
 			name = Stormer;
 			productName = Stormer;
@@ -156,6 +271,9 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					CA6A33B82665268E00EA8253 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					CAC0CADA26621F1A00403DB1 = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -175,11 +293,21 @@
 			projectRoot = "";
 			targets = (
 				CAC0CADA26621F1A00403DB1 /* Stormer */,
+				CA6A33B82665268E00EA8253 /* StormerWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CA6A33B72665268E00EA8253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA21A9612665977300BC6651 /* Assets.xcassets in Resources */,
+				CA6A33C32665269000EA8253 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAC0CAD926621F1A00403DB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,6 +320,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CA6A33B52665268E00EA8253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6A33DD26652B7500EA8253 /* WidgetEntry.swift in Sources */,
+				CA6A33D32665277700EA8253 /* WeatherDesc.swift in Sources */,
+				CA6A33CC2665276300EA8253 /* Weather.swift in Sources */,
+				CA6A33E726655D2900EA8253 /* StormerWidgetEntryView.swift in Sources */,
+				CA6A33D826652AE300EA8253 /* ApiService.swift in Sources */,
+				CA6A33D52665277D00EA8253 /* ConditionsCodes.swift in Sources */,
+				CA6A33D42665277A00EA8253 /* LocationManager.swift in Sources */,
+				CA6A33D12665277200EA8253 /* Sys.swift in Sources */,
+				CA6A33CE2665276A00EA8253 /* MainWeather.swift in Sources */,
+				CA6A33DA26652AEC00EA8253 /* ApiError.swift in Sources */,
+				CA6A33CD2665276700EA8253 /* BaseWeather.swift in Sources */,
+				CA6A33E026652CF400EA8253 /* WidgetTimeline.swift in Sources */,
+				CA6A33D02665276F00EA8253 /* Clouds.swift in Sources */,
+				CA6A33C12665268E00EA8253 /* StormerWidget.swift in Sources */,
+				CA6A33CF2665276D00EA8253 /* Coordinates.swift in Sources */,
+				CA6A33E326652FFB00EA8253 /* WidgetLocationManager.swift in Sources */,
+				CA6A33D22665277400EA8253 /* Wind.swift in Sources */,
+				CA6A33D926652AE900EA8253 /* Router.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAC0CAD726621F1A00403DB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,7 +370,61 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CA6A33C62665269000EA8253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6A33B82665268E00EA8253 /* StormerWidgetExtension */;
+			targetProxy = CA6A33C52665269000EA8253 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		CA6A33C92665269000EA8253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StormerWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAKVM6YWDQ;
+				INFOPLIST_FILE = StormerWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milosmalovic11.Stormer.StormerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA6A33CA2665269000EA8253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StormerWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAKVM6YWDQ;
+				INFOPLIST_FILE = StormerWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milosmalovic11.Stormer.StormerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		CAC0CAE826621F1B00403DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -337,8 +544,10 @@
 		CAC0CAEB26621F1B00403DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stormer/Stormer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Stormer/Preview Content\"";
 				DEVELOPMENT_TEAM = NAKVM6YWDQ;
@@ -359,8 +568,10 @@
 		CAC0CAEC26621F1B00403DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stormer/Stormer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Stormer/Preview Content\"";
 				DEVELOPMENT_TEAM = NAKVM6YWDQ;
@@ -381,6 +592,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CA6A33C82665269000EA8253 /* Build configuration list for PBXNativeTarget "StormerWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6A33C92665269000EA8253 /* Debug */,
+				CA6A33CA2665269000EA8253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CAC0CAD626621F1A00403DB1 /* Build configuration list for PBXProject "Stormer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
